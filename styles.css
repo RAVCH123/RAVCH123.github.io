@@ -1,3 +1,4 @@
+/* GENERAL/UNIVERSAL */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,56 +11,227 @@ body {
     font-family: "Lora", serif;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #34aeff;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+/* ENCABEZADO/HEADER */
 header {
-    background-color: #ffffff;
-    display: flex;
+    background: url(./images/banner4.jpg) no-repeat center/cover;
     align-items: center;
-    height: 80px;
+    height: 400px;
+    border-bottom: 3px solid #0000ff;
 }
 
 h1 {
+    color: #ffffff;
     font-family: "Playwrite AU SA", serif;
+    font-size: 20px;
+    margin-top: 21px;
+    text-align: center;
     text-shadow: 
     1px 1px 0 #000,
     -1px 1px 0 #000,
     -1px -1px 0 #000,
-    1px -1px 0 #000;
-    color: #ffffff;
+    1px -1px 0 #000;;
 }
 
-.header__img {
-    width: 70px;
-    height: 70px;
-    margin: 5px;
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.center {
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    background-size: 101%;
+    background-position: top left;
+    border-radius: 100%;
+    margin: 100px auto;
+    transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+    box-shadow: 0px 5px 10px #000;
+  }
+  .center:hover {
+    box-shadow: 0px 5px 20px #000;
+    background-size: 115%;
+  }
+  .center:hover .outside {
+    transform: rotate(-45deg) translate(0px) rotate(-315deg);
+    background: rgba(16, 96, 255, 0.5);
+    width: 200px;
+    letter-spacing: 10px;
+    padding-left: 10px;
+    line-height: 200px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: -100px;
+    transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1), letter-spacing 1.5s ease-out;
+  }
+  .center .outside {
+    display: block;
+    position: absolute;
+    line-height: 100px;
+    text-align: center;
+    letter-spacing: 4px;
+    padding-left: 4px;
+    box-sizing: border-box;
+    font-weight: 300;
+    color: #fff;
+    font-family: Oswald;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background: #00a3ff;
+    left: 50%;
+    top: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    transform: rotate(-135deg) translate(-100px) rotate(135deg);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  }
+  .center .outside span {
+    letter-spacing: 0;
+  }
+  
+/* 
+CONTENIDO PRINCIPAL
+INTRODUCCION 
+*/
+.introduccion {
+    padding: 1rem 2rem;
+}
+
+.lema {
+    font-family: "Playwrite AU SA", serif;
+    text-align: center;
+}
+
+.pasaje1 {
+    text-align: right;
+    margin-right: 100px;
+}
+
+/* REDES SOCIALES */
+.social-media {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-media__title {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.social-media__facebook {
+    font-weight: 500;
+}
+
+.social-media__radio {
+    font-weight: 500;
+}
+
+.links {
+    margin: 0px auto;
+    margin-bottom: 20px;
+    padding: 2em;
+    width: 300px;
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.links::after, .links::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(from var(--angle), #0000ff, #ffffff, #34aeff, #0000ff, #fdfefa, #34aeff, #0000ff);
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
     padding: 3px;
+    border-radius: 10px;
+    animation: 3s spin linear infinite;
 }
 
+.links::before {
+    filter: blur(.5rem);
+}
+
+@keyframes spin {
+    from {
+        --angle: 0deg;
+    }
+
+    to {
+        --angle: 360deg;
+    }
+}
+
+/* FOOTER/PIE DE PAGINA */
+footer {
+    border-top: 3px solid #0000ff;
+    padding: 1rem 2rem;
+    text-align: center;
+    color: #fff;
+    background: #34aeff;
+}
+
+.footer__title {
+    padding: 5px;
+    margin: 3px;
+}
+
+/* MEDIA QUERIES */
 @media (max-width: 700px) {
     header {
         display: flex;
     }
 
     h1 {
-        font-size: 28px;
+        font-size: 20px;
+    }
+
+    .links {
+        width: 210px;
     }
 }
 
-@media (max-width: 500px) {
-    header {
-        display: flex;
-    }
-
-    h1 {
-        font-size: 24px;
-    }
-}
-
-@media (max-width: 250px) {
+@media (max-width: 300px) {
     header {
         display: flex;
     }
 
     h1 {
         font-size: 16px;
+    }
+
+    .links {
+        width: 230px;
     }
 }
