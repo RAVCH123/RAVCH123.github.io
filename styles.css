@@ -7,7 +7,7 @@
 
 body {
     background-color: #ffffff;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='church-on-sunday' fill='%231a68f8' fill-opacity='0.22'%3E%3Cpath d='M77.17 0H80v2.83l-.1.1A39.9 39.9 0 0 1 74.64 20a39.9 39.9 0 0 1 5.24 17.06l.11.11v2.89c-.01 6.9-1.8 13.79-5.35 19.94A39.96 39.96 0 0 1 80 79.94V80h-2.83L66.84 69.66a39.83 39.83 0 0 1-24.1 10.25l.09.09h-5.66l.1-.1c-8.7-.58-17.22-4-24.1-10.23L2.82 80H0V79.94c.01-6.9 1.8-13.8 5.35-19.94A39.96 39.96 0 0 1 0 40.06V37.17l.1-.1A39.9 39.9 0 0 1 5.36 20 39.9 39.9 0 0 1 .1 2.94L0 2.83V0h2.83l-.1.1a39.83 39.83 0 0 1 24.1 10.24L37.18 0H40c0 6.92-1.78 13.83-5.35 20A39.96 39.96 0 0 1 40 40c0-6.92 1.78-13.83 5.35-20A39.96 39.96 0 0 1 40 0h2.83l10.33 10.34A39.83 39.83 0 0 1 77.26.09L77.17 0zm.77 77.94c-.3-5.52-1.8-11-4.49-16a40.18 40.18 0 0 1-5.17 6.34l9.66 9.66zm-12.52-9.7l-6.83-6.83-5.46 5.46-1.41 1.41-9.66 9.66c8.4-.45 16.69-3.68 23.36-9.7zm-23.07 6.58l7.99-7.98a40.05 40.05 0 0 1-3.79-4.9 37.88 37.88 0 0 0-4.2 12.88zM47.68 60a37.98 37.98 0 0 0 4.07 5.42L57.17 60l-5.42-5.42A38 38 0 0 0 47.68 60zm2.66-6.84a40.06 40.06 0 0 0-3.79 4.9 37.88 37.88 0 0 1-4.2-12.88l7.99 7.98zm1.38-1.44l1.41 1.41 5.46 5.46 6.83-6.84a37.85 37.85 0 0 0-23.36-9.7l9.66 9.67zM60 60l6.87 6.87A38.1 38.1 0 0 0 72.32 60a38.11 38.11 0 0 0-5.45-6.87L60 60zm-14.65 0a39.9 39.9 0 0 0-5.24 17.06l-.11.11-.1-.1A39.9 39.9 0 0 0 34.64 60a39.9 39.9 0 0 0 5.24-17.06l.11-.11.1.1A39.9 39.9 0 0 0 45.36 60zm9.23-48.25a37.85 37.85 0 0 1 23.36-9.7l-9.66 9.67-1.41 1.41-5.46 5.46-6.83-6.84zm13.67 13.67L62.83 20l5.42-5.42A38 38 0 0 1 72.32 20a37.98 37.98 0 0 1-4.07 5.42zm5.2-3.47a40.05 40.05 0 0 1-3.79 4.89l7.99 7.98c-.61-4.45-2.01-8.82-4.2-12.87zm-6.58 4.92l1.41 1.41 9.66 9.66a37.85 37.85 0 0 1-23.36-9.7l6.83-6.83 5.46 5.46zM53.13 13.13L60 20l-6.87 6.87A38.11 38.11 0 0 1 47.68 20a38.1 38.1 0 0 1 5.45-6.87zm-1.41-1.41l-9.66-9.66c.3 5.52 1.8 11 4.49 16a40.18 40.18 0 0 1 5.17-6.34zm-9.66 26.22c.3-5.52 1.8-11 4.49-16a40.18 40.18 0 0 0 5.17 6.34l-9.66 9.66zm26.22 13.78l9.66-9.66c-.3 5.52-1.8 11-4.49 16a40.18 40.18 0 0 0-5.17-6.34zm8.98-11.81L66.84 50.34a39.83 39.83 0 0 0-24.1-10.25l10.42-10.43a39.83 39.83 0 0 0 24.1 10.25zm-7.6-26.75a40.06 40.06 0 0 1 3.79 4.9 37.88 37.88 0 0 0 4.2-12.88l-7.99 7.98zm-31.72 28.9c-8.4.45-16.69 3.68-23.36 9.7l6.83 6.83 5.46-5.46 1.41-1.41 9.66-9.66zM22.83 60l5.42 5.42c1.54-1.7 2.9-3.52 4.07-5.42a38 38 0 0 0-4.07-5.42L22.83 60zm5.45 8.28l-1.41-1.41-5.46-5.46-6.83 6.84a37.85 37.85 0 0 0 23.36 9.7l-9.66-9.67zm9.37 6.54l-7.99-7.98a40.05 40.05 0 0 0 3.79-4.9 37.88 37.88 0 0 1 4.2 12.88zM20 60l-6.87-6.87A38.11 38.11 0 0 0 7.68 60a38.11 38.11 0 0 0 5.45 6.87L20 60zm17.26-19.9L26.84 29.65a39.83 39.83 0 0 1-24.1 10.25l10.42 10.43a39.83 39.83 0 0 1 24.1-10.25zm-35.2 1.96l9.66 9.66a40.18 40.18 0 0 0-5.17 6.33c-2.7-5-4.2-10.47-4.5-16zm4.49 19.89c-2.7 5-4.2 10.47-4.5 16l9.67-9.67a40.18 40.18 0 0 1-5.17-6.33zm31.1-16.77c-.61 4.45-2.01 8.82-4.2 12.87a40.06 40.06 0 0 0-3.79-4.89l7.99-7.98zm-4.2-23.23c2.7 5 4.2 10.47 4.5 16l-9.67-9.67c1.97-1.97 3.7-4.1 5.17-6.33zm-14.86-.54l6.83 6.84a37.85 37.85 0 0 1-23.36 9.7l9.66-9.67 1.41-1.41 5.46-5.46zm-8.25 5.43l-7.99 7.98c.61-4.45 2.01-8.82 4.2-12.87a40.04 40.04 0 0 0 3.79 4.89zm1.41-1.42A37.99 37.99 0 0 1 7.68 20a38 38 0 0 1 4.07-5.42L17.17 20l-5.42 5.42zm-5.2-7.37a40.04 40.04 0 0 1 3.79-4.89L2.35 5.18c.61 4.45 2.01 8.82 4.2 12.87zm6.58-4.92l-1.41-1.41-9.66-9.66a37.85 37.85 0 0 1 23.36 9.7l-6.83 6.83-5.46-5.46zm13.74 13.74L20 20l6.87-6.87A38.1 38.1 0 0 1 32.32 20a38.1 38.1 0 0 1-5.45 6.87zm6.58-8.82a40.18 40.18 0 0 0-5.17-6.33l9.66-9.66c-.3 5.52-1.8 11-4.49 16z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background: url(./images/fondo.jpg) no-repeat center center/cover;
     font-family: "Lora", serif;
 }
 
@@ -19,6 +19,7 @@ a {
 
 a:hover {
     color: #34aeff;
+    transition: all 200ms ease-in-out;
 }
 
 .container {
@@ -29,93 +30,50 @@ a:hover {
 
 /* ENCABEZADO/HEADER */
 header {
-    background: url(./images/banner4.jpg) no-repeat center/cover;
+    /*background-color: #34aeff;*/
+    background: url(./images/banner\ 1\ mejor.png) no-repeat center/cover;
     align-items: center;
-    height: 400px;
-    border-bottom: 3px solid #0000ff;
+    height: 650px;
+    border-bottom: 3px solid #34aeff;
 }
 
 h1 {
     color: #ffffff;
     font-family: "Playwrite AU SA", serif;
     font-size: 20px;
-    margin-top: 21px;
+    margin-top: 5px;
     text-align: center;
     text-shadow: 
     1px 1px 0 #000,
     -1px 1px 0 #000,
     -1px -1px 0 #000,
-    1px -1px 0 #000;;
+    1px -1px 0 #000;
 }
 
-img {
-    height: 200px;
-    width: 200px;
+.center__img {
+    height: 300px;
+    width: 300px;
     border-radius: 100%;
 }
 
 .center {
-    display: block;
-    position: relative;
-    width: 200px;
-    height: 200px;
-    cursor: pointer;
-    background-size: 101%;
-    background-position: top left;
-    border-radius: 100%;
-    margin: 100px auto;
-    transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
-    box-shadow: 0px 5px 10px #000;
-  }
-  .center:hover {
-    box-shadow: 0px 5px 20px #000;
-    background-size: 115%;
-  }
-  .center:hover .outside {
-    transform: rotate(-45deg) translate(0px) rotate(-315deg);
-    background: rgba(16, 96, 255, 0.5);
-    width: 200px;
-    letter-spacing: 10px;
-    padding-left: 10px;
-    line-height: 200px;
-    height: 200px;
-    margin-top: -100px;
-    margin-left: -100px;
-    transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1), letter-spacing 1.5s ease-out;
-  }
-  .center .outside {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: absolute;
-    line-height: 100px;
-    text-align: center;
-    letter-spacing: 4px;
-    padding-left: 4px;
-    box-sizing: border-box;
-    font-weight: 300;
-    color: #fff;
-    font-family: Oswald;
-    border-radius: 100%;
-    width: 100px;
-    height: 100px;
-    background: #00a3ff;
-    left: 50%;
     top: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
-    transform: rotate(-135deg) translate(-100px) rotate(135deg);
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
-    transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
-  }
-  .center .outside span {
-    letter-spacing: 0;
-  }
-  
+    left: 50%;
+    translate: -50% -20%;
+    width: 300px;
+}
+
 /* 
 CONTENIDO PRINCIPAL
 INTRODUCCION 
 */
-.introduccion {
+.pasajes {
     padding: 1rem 2rem;
+    color: #4e4e4e;
 }
 
 .lema {
@@ -123,9 +81,146 @@ INTRODUCCION
     text-align: center;
 }
 
-.pasaje1 {
+.pasaje {
     text-align: right;
     margin-right: 100px;
+}
+
+/* PASTORES */
+.pastores {
+    display: flex;
+    margin: 20px auto;
+    padding: 1rem 2rem;
+    background-color: #34aeff20;
+    width: 75%;
+    border-top: 3px solid #00000004;
+    border-left: 3px solid #00000003;
+    box-shadow: 3px 3px 3px #00000001;
+    backdrop-filter: blur(4px);
+    animation: 2s in ease-in-out;
+
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.pastores img {
+    height: 230px;
+    width: 230px;
+    border-radius: 20%;
+    box-shadow: 3px 3px 1px #000;
+}
+
+.pastores__texto {
+    margin: 15px;
+    padding: 5px;
+    color: #2e2e2e;
+}
+
+.pastores__texto h3 {
+    font-family: "Lora", serif;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.map {
+    display: flex;
+    width: 75%;
+    padding: 1rem 2rem;
+    margin: 20px auto;
+    background-color: #34aeff20;
+    width: 75%;
+    border-top: 3px solid #00000004;
+    border-left: 3px solid #00000003;
+    box-shadow: 3px 3px 3px #00000001;
+    backdrop-filter: blur(4px);
+    animation: 2.5s in ease-in-out;
+
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.map iframe {
+    height: 230px;
+    width: 230px;
+    border-radius: 10%;
+    box-shadow: 3px 3px 1px #000;
+    margin: 10px;
+}
+
+.map_text {
+    margin: 20px;
+    padding: 10px;
+    color: #2e2e2e;
+}
+
+.map h3 {
+    font-family: "Lora", serif;
+    font-size: 24px;
+    margin: 15px;
+    padding: 5px;
+}
+
+.horarios {
+    text-align: center;
+    width: 75%;
+    padding: 1rem 2rem;
+    margin: 20px auto;
+    background-color: #34aeff20;
+    width: 75%;
+    border-top: 3px solid #00000004;
+    border-left: 3px solid #00000003;
+    box-shadow: 3px 3px 3px #00000001;
+    backdrop-filter: blur(4px);
+    animation: 3s in ease-in-out;
+
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.horarios > h3 {
+    font-size: 24px;
+    padding: 6px;
+    color: #2e2e2e;
+}
+
+.horarios > img {
+    width: 100%;
+}
+
+/* SCROLL SNAP */
+.slider {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    margin-left: 50%;
+    translate: -50% 0;
+    max-width: 700px;
+    height: 500px;
+    width: 95%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.slider img {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+    border-radius: 0;
+}
+
+.slider__title {
+    width: 75%;
+    text-align: center;
+    margin: 15px auto;
+    padding: 5px;
+    font-size: 24px;
+    font-family: "Lora", serif;
+    color: #2e2e2e;
 }
 
 /* REDES SOCIALES */
@@ -137,6 +232,7 @@ INTRODUCCION
 .social-media__title {
     font-weight: 800;
     font-size: 24px;
+    color: #2e2e2e;
 }
 
 .social-media__facebook {
@@ -148,7 +244,7 @@ INTRODUCCION
 }
 
 .links {
-    margin: 0px auto;
+    margin: 10px auto;
     margin-bottom: 20px;
     padding: 2em;
     width: 300px;
@@ -169,7 +265,7 @@ INTRODUCCION
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: conic-gradient(from var(--angle), #0000ff, #ffffff, #34aeff, #0000ff, #fdfefa, #34aeff, #0000ff);
+    background-image: conic-gradient(from var(--angle), #0000ff34, #ffffff, #34aeff, #0000ff34, #fdfefa, #34aeff, #0000ff34);
     top: 50%;
     left: 50%;
     translate: -50% -50%;
@@ -181,6 +277,19 @@ INTRODUCCION
 
 .links::before {
     filter: blur(.5rem);
+}
+
+/* KEYFRAMES */
+@keyframes in {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
 
 @keyframes spin {
@@ -195,11 +304,11 @@ INTRODUCCION
 
 /* FOOTER/PIE DE PAGINA */
 footer {
-    border-top: 3px solid #0000ff;
+    border-top: 3px solid #0000ff20;
     padding: 1rem 2rem;
     text-align: center;
     color: #fff;
-    background: #34aeff;
+    background: #34aeff90;
 }
 
 .footer__title {
@@ -209,29 +318,122 @@ footer {
 
 /* MEDIA QUERIES */
 @media (max-width: 700px) {
-    header {
-        display: flex;
-    }
-
     h1 {
         font-size: 20px;
     }
 
+
+    .pastores {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    .pastores h3 {
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .map {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    .map h3 {
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .slider {
+        max-width: 700px;
+        height: 450px;
+        width: 95%;
+    }
+
+    .slider img {
+        max-height: 500px;
+    }
+
     .links {
-        width: 210px;
+        width: 250px;
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 450px) {
     header {
-        display: flex;
+        background: url(./images/banner4.jpg)no-repeat center center/cover;
     }
 
     h1 {
         font-size: 16px;
     }
 
+    .center__img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .slider {
+        height: 210px;
+        width: 95%;
+    }
+
+    .slider img {
+        max-height: 270px;
+    }
+
+    .slider__title {
+        font-size: 18px;
+    }
+
     .links {
         width: 230px;
+    }
+}
+
+@media (max-width: 350px) {
+    .center {
+        width: 200px;
+    }
+
+    .center__img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .pastores__texto {
+        padding: 2px;
+    }
+
+    .pastores h3 {
+        padding: 2px;
+        font-size: 18px;
+    }
+
+    .pastores p {
+        font-size: 15px;
+    }
+
+    .map__text {
+        padding: 2px;
+    }
+
+    .map h3 {
+        padding: 2px;
+        font-size: 18px;
+    }
+
+    .map p {
+        font-size: 15px;
+    }
+
+    .slider {
+        height: 180px;
+        width: 90%;
+    }
+
+    .slider img {
+        max-height: 230px;
     }
 }

@@ -23,39 +23,96 @@
     <div class="container">
 
         <header>
-            <div class="center" id="message">
-                <img src="./images/logo1.jpg" alt="logo1">
-                <div class="outside">RAVCH</div>
-                <h1 class="header__title">Rios de Agua Viva</h1>
+            <div class="center">
+                <img src="./images/logo1.jpg" alt="logo1" class="center__img">
+                <h1 class="header__title">Rios de Agua Viva Chinandega</h1>
               </div>
         </header>
 
         <main>
-            <section class="introduccion">
+            <section class="pasajes">
                 <h2 class="lema">"El que cree en mí, como dice la Escritura, de su interior correrán ríos de agua viva."</h2>
-                <p class="pasaje1">Juan 7:38</p>
+                <p class="pasaje">Juan 7:38</p>
             </section>
+
+           <section class="body"> 
+                <div class="pastores">
+                    <img src="./images/pastores sin pastores.png" alt="Pastores" class="pastores__img">
+                    <div class="pastores__texto">
+                        <h3>Bienvenidos a nuestro ministerio!</h3>
+                        <p>El ministerio <strong>Rios de Agua Viva Chinandega</strong> junto a la 
+                            familia pastoral <strong>Tellez Poveda</strong> les dan la bienvenida
+                            a nuestra congregación que busca recibir la triple unción para este 
+                            año 2025, esperando que la bendición de Dios y su misericordia sean
+                            con cada una de las personas que visiten nuestra página.
+                        </p>
+                    </div>
+                </div>
+                <div class="map">
+                    <div class="map__text">
+                        <h3>Ubicación</h3>
+                        <p>
+                            Estamos ubicados en <strong>Nicaragua</strong>, específicamente en la 
+                            ciudad de <strong>Chinandega</strong> barrio Camilo Ortega - La Florida, 
+                            nuestra dirección es: "Ferromax, 11 Cuadras al Sur, una cuadra al 
+                            Oeste" 
+                        </p>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3893.4962532244194!2d-87.13618712553226!3d12.615416322588505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f70f1fae76ec4b1%3A0x6011f01ebf6c5f1e!2sRios%20de%20agua%20viva%20(RAVCH)!5e0!3m2!1ses-419!2sni!4v1738085054107!5m2!1ses-419!2sni" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="cards horarios">
+                    <h3>Horarios de servicio</h3>
+                    <img src="./images/banner1.png" alt="">
+                </div>
+            </section>
+
+            <h3 class="slider__title">Imágenes del ministerio</h3>
+
+            <div class="slider">
+                <img src="./images/Imagenes iglesia/Servicio 9-2-25/imagen1.jpg" alt="imagen 1">
+                <img src="./images/Imagenes iglesia/Servicio 9-2-25/imagen2.jpg" alt="imagen 2">
+                <img src="./images/Imagenes iglesia/Servicio 9-2-25/imagen3.jpg" alt="imagen 3">
+                <img src="./images/Imagenes iglesia/Servicio 9-2-25/imagen5.jpg" alt="imagen 5">
+                <img src="./images/Imagenes iglesia/Servicio 9-2-25/imagen6.jpg" alt="imagen 6">
+                <img src="./images/Imagenes iglesia/Servicio 9-2-25/imagen7.jpg" alt="imagen 7">
+                <img src="./images/Imagenes iglesia/Servicio 9-2-25/imagen8.jpg" alt="imagen 8">
+                <img src="./images/Imagenes iglesia/Servicio 9-2-25/imagen9.jpg" alt="imagen 9">
+            </div>
 
             <section class="social-media">
                 <div class="links">
-                    <h3 class="social-media__title">Siguenos!</h3>
-                    <a href="https://www.facebook.com/Riosdeaguavivachinandega/?locale=es_LA" target="_blank" class="social-media__facebook">Facebook</a>
+                    <h3 class="social-media__title">Síguenos!</h3>
+                    <a href="https://www.facebook.com/Riosdeaguavivachinandega/?locale=es_LA" class="social-media__facebook">Facebook <br> Rios de Agua Viva "Chinandega"</a>
                 </div>
                 <div class="links">
-                    <h3 class="social-media__title">Escuchanos!</h3>
+                    <h3 class="social-media__title">Escúchanos!</h3>
                     <h4 class="social-media__radio">98.9 FM Radio Renovación <br>9:00am</h4>
                 </div>
             </section>
         </main>
 
+        <div class="pasajes">
+            <h2 class="lema">"Y el Espíritu de Dios se movía sobre la faz de las aguas."</h2>
+            <p class="pasaje">Génesis 1:2</p>
+        </div>
+
         <footer>
             <h3 class="footer__title">Rios de Agua Viva</h3>
-            <h4 class="footer__title">Copyright ©</h4>
-            <p>"El que cree en mí, como dice la Escritura, de su interior correrán ríos de agua viva."<br> Juan 7:38</p>
+            <h4 class="footer__title">RAVCH | Todos los derechos reservados - 2025</h4>
+            <p>Chinandega, Nicaragua - Ferromax 11C. S. 1C. O.</p>
         </footer>
+
+        <audio id="audioPlayer" controls style="display: none;">
+            <source src="./audio/vineta.mp3" type="audio/mpeg">
+            Tu navegador no es compatible con la reproducción de audio.
+        </audio>
 
     </div>
 
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- CUSTOM JS -->
     <script src="main.js"></script>
 </body>
 </html>
