@@ -30,8 +30,7 @@ a:hover {
 
 /* ENCABEZADO/HEADER */
 header {
-    /*background-color: #34aeff;*/
-    background: url(./images/banner\ 1\ mejor.png) no-repeat center/cover;
+    background: url(./images/header.png) no-repeat center/cover;
     align-items: center;
     height: 650px;
     border-bottom: 3px solid #34aeff;
@@ -125,7 +124,7 @@ INTRODUCCION
 
 .map {
     display: flex;
-    width: 75%;
+    align-items: center;
     padding: 1rem 2rem;
     margin: 20px auto;
     background-color: #34aeff20;
@@ -148,7 +147,7 @@ INTRODUCCION
     margin: 10px;
 }
 
-.map_text {
+.map__text {
     margin: 20px;
     padding: 10px;
     color: #2e2e2e;
@@ -157,70 +156,13 @@ INTRODUCCION
 .map h3 {
     font-family: "Lora", serif;
     font-size: 24px;
-    margin: 15px;
     padding: 5px;
 }
 
-.horarios {
-    text-align: center;
-    width: 75%;
-    padding: 1rem 2rem;
-    margin: 20px auto;
-    background-color: #34aeff20;
-    width: 75%;
-    border-top: 3px solid #00000004;
-    border-left: 3px solid #00000003;
-    box-shadow: 3px 3px 3px #00000001;
-    backdrop-filter: blur(4px);
-    animation: 3s in ease-in-out;
-
-    animation-timeline: view();
-    animation-range: entry 0 cover 40%;
-}
-
-.horarios > h3 {
-    font-size: 24px;
-    padding: 6px;
-    color: #2e2e2e;
-}
-
-.horarios > img {
-    width: 100%;
-}
-
-/* SCROLL SNAP */
-.slider {
-    display: flex;
-    flex-direction: column;
-    margin: 10px 0;
-    margin-left: 50%;
-    translate: -50% 0;
-    max-width: 700px;
-    height: 500px;
-    width: 95%;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-    border-radius: 2px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.slider img {
-    height: 600px;
-    width: 100%;
-    object-fit: cover;
-    scroll-snap-align: center;
-    border-radius: 0;
-}
-
-.slider__title {
-    width: 75%;
-    text-align: center;
-    margin: 15px auto;
-    padding: 5px;
-    font-size: 24px;
+.map h4 {
     font-family: "Lora", serif;
-    color: #2e2e2e;
+    font-size: 18px;
+    padding: 5px;
 }
 
 /* REDES SOCIALES */
@@ -322,7 +264,6 @@ footer {
         font-size: 20px;
     }
 
-
     .pastores {
         flex-direction: column;
         align-items: center;
@@ -345,14 +286,8 @@ footer {
         padding: 5px;
     }
 
-    .slider {
-        max-width: 700px;
-        height: 450px;
-        width: 95%;
-    }
-
-    .slider img {
-        max-height: 500px;
+    .horarios {
+        width: 90%;
     }
 
     .links {
@@ -372,19 +307,6 @@ footer {
     .center__img {
         width: 250px;
         height: 250px;
-    }
-
-    .slider {
-        height: 210px;
-        width: 95%;
-    }
-
-    .slider img {
-        max-height: 270px;
-    }
-
-    .slider__title {
-        font-size: 18px;
     }
 
     .links {
@@ -428,12 +350,4 @@ footer {
         font-size: 15px;
     }
 
-    .slider {
-        height: 180px;
-        width: 90%;
-    }
-
-    .slider img {
-        max-height: 230px;
-    }
 }
